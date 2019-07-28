@@ -8,7 +8,11 @@ public enum Mensajes {
     MENSAJE_NOTA1( "Calcular promedio \n ingrese nota 1: " ) ,
     MENSAJE_NOTA2( "Calcular promedio \n ingrese nota 2: " ) ,
     MENSAJE_NOTA3( "Calcular promedio \n ingrese nota 3: " ) ,
-    MENSAJE_PROMEDIO( "Su nota final es: \n" ) ,
+    MENSAJE_PROMEDIO_ALTO( "Excelente, tu rendimiento ha sido el mejor. \n" ) ,
+    MENSAJE_PROMEDIO_BUENO( "Tu rendimiento es aceptable, pero finalizaste bien.\n" ) ,
+    MENSAJE_PROMEDIO_REGULAR( "Te sugerimos comprometerte más con tu estudio. \n" ) ,
+    MENSAJE_PROMEDIO_MALO( "Malas noticias, no cumpliste con el mínimo para avanzar. \n" ) ,
+    MENSAJE_PROMEDIO_PESIMO( "Nuevamente vuelve a iniciar tus estudios y dedícate. \n" ) ,
     MENSAJE_DESPEDIDA( "Gracias por su visita. \n Hasta luego." ) ,
     MENSAJE_DE_ERROR( "¡Atención por favor!\n Lea las instrucciones" ) ;
 
